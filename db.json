@@ -1,0 +1,109 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Nozinan",
+      "image": "assets/nozinan.jpeg",
+      "quantity": 1,
+      "price": 1800
+    },
+    {
+      "id": "2",
+      "name": "SPASFON",
+      "image": "assets/spasfon.jpeg",
+      "quantity": 16,
+      "price": 2800
+    },
+    {
+      "id": "3",
+      "name": "DAFALGAN 500mg",
+      "image": "assets/dafalgan.jpeg",
+      "price": 36000,
+      "quantity": 3
+    },
+    {
+      "id": "4",
+      "name": "PHYSIOL 5ml B10",
+      "image": "assets/physiol.jpeg",
+      "price": 2000,
+      "quantity": 112
+    },
+    {
+      "id": "5",
+      "name": "Tegretol",
+      "image": "assets/tegretol.jpeg",
+      "price": 3000,
+      "quantity": 1
+    },
+    {
+      "id": "7",
+      "name": "Fervex",
+      "image": "assets/fervex.jpeg",
+      "price": 5100,
+      "quantity": 30
+    },
+    {
+      "id": "8",
+      "name": "Doliprane 1000mg",
+      "image": "assets/doliprane1000mg.jpg",
+      "price": 4200,
+      "quantity": 100
+    },
+    {
+      "id": "9",
+      "name": "ANTAFEN",
+      "image": "assets/antafen.jpeg",
+      "price": 3100,
+      "quantity": 30
+    },
+    {
+      "id": "10",
+      "name": "Calcibronat",
+      "image": "assets/calcibronat.jpeg",
+      "price": 8200,
+      "quantity": 10
+    },
+    {
+      "id": "11",
+      "name": "EFFERALGAN vitamine c",
+      "image": "assets/efferalgan.jpeg",
+      "price": 4200,
+      "quantity": 55
+    },
+    {
+      "id": "12",
+      "name": "Maxilase",
+      "image": "assets/maxilase.jpeg",
+      "price": 6100,
+      "quantity": 41
+    },
+    {
+      "id": "13",
+      "name": "Pollen d'abeille",
+      "image": "assets/pollen.jpeg",
+      "price": 32500,
+      "quantity": 15
+    },
+    {
+      "id": "14",
+      "name": "Météoxane",
+      "image": "assets/meteoxane.jpeg",
+      "price": 7100,
+      "quantity": 22
+    },
+    {
+      "id": "15",
+      "name": "Vitamine C UPSA",
+      "image": "assets/vitamine_c_upsa.jpeg",
+      "price": 11200,
+      "quantity": 2
+    },
+    {
+      "id": "16",
+      "name": "Doliprane 500mg",
+      "image": "assets/doliprane500mg.jpg",
+      "price": 1950,
+      "quantity": 55
+    }
+  ]
+}

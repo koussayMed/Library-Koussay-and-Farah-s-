@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-sm bg-dark text-white navbar-dark">
+    <ul class="navbar-nav">
+        <img src="../../../assets/pharmacy.png" routerLink="/" alt="Logo image" class="logo" />
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/about-us">About Us</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/our-team">Our Team</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/contact-us">Contact Us</a>
+        </li>
+        <li>
+            <form #f="ngForm" (ngSubmit)="onSearch(f.value)" class="form-inline">
+                <input name="keyword" type="text" ngModel>
+                <button class="btn btn-sm btn-outline-info ml-2">
+                    <i class="fa fa-search"></i>
+                </button>
+            </form>
+        </li>
+        <li>
+            <button class="btn btn-success" (click)="navigateToAddProduct()">Add Product</button>
+        </li>
+    </ul>
+</nav>

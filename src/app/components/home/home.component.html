@@ -1,0 +1,42 @@
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-4" *ngFor="let p of allProducts">
+            <div class="card mb-4 shadow-sm" (click)="openModal(p)">
+                <img [src]="p.image" class="card-img-top" alt="Product Image">
+                <div class="card-body">
+                    <h5 class="card-title">{{p.name}}</h5>
+                    <p class="card-text">${{p.price}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Modal-->
+    <div class="modal fade" id="productModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">{{selectedProduct?.name}}</h5>
+                </div>
+                <div class="modal-body">
+                    <img [src]="selectedProduct?.image" class="img-fluid mb-3">
+                    <p><strong>Price:</strong> ${{selectedProduct?.price}}</p>
+                    <p><strong>Quantity:</strong> {{selectedProduct?.quantity}}</p>
+                </div>
+                <div class="modal-footer" *ngIf="selectedProduct">
+                    <button class="btn btn-success" [routerLink]="['/add-to-cart', selectedProduct.id]" (click)="closeModal()">
+                        Add to Cart
+                    </button>
+                    <button class="btn btn-danger" (click)="deleteProduct(selectedProduct)">
+                        <span class="fa fa-trash-o"></span>
+                    </button>
+                    <button class="btn btn-primary" (click)="editProduct(selectedProduct)">
+                        <span class="fa fa-edit"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

@@ -40,6 +40,9 @@ export class ProductsService {
   }
 
   updateProduct(product: any): Observable<Product> {
+    console.log('Updating product:', product); // Debugging
     return this.http.put<Product>(`${this.host}/products/${product.id}`, product);
   }
+
+
 }

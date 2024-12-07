@@ -1,109 +1,74 @@
 {
   "products": [
     {
-      "id": "1",
-      "name": "Nozinan",
-      "image": "assets/nozinan.jpeg",
-      "quantity": 1,
-      "price": 1800
-    },
-    {
-      "id": "2",
-      "name": "SPASFON",
-      "image": "assets/spasfon.jpeg",
-      "quantity": 16,
-      "price": 2800
-    },
-    {
-      "id": "3",
-      "name": "DAFALGAN 500mg",
-      "image": "assets/dafalgan.jpeg",
-      "price": 36000,
+      "id": "70ea",
+      "name": "Le nom de toutes choses",
+      "image": "https://www.bragelonne.fr/media/cache/cat_w272/47/9791028121747.jpg",
+      "price": 150,
       "quantity": 3
     },
     {
-      "id": "4",
-      "name": "PHYSIOL 5ml B10",
-      "image": "assets/physiol.jpeg",
-      "price": 2000,
-      "quantity": 112
-    },
-    {
-      "id": "5",
-      "name": "Tegretol",
-      "image": "assets/tegretol.jpeg",
-      "price": 3000,
-      "quantity": 1
-    },
-    {
-      "id": "7",
-      "name": "Fervex",
-      "image": "assets/fervex.jpeg",
-      "price": 5100,
-      "quantity": 30
-    },
-    {
-      "id": "8",
-      "name": "Doliprane 1000mg",
-      "image": "assets/doliprane1000mg.jpg",
-      "price": 4200,
-      "quantity": 100
-    },
-    {
-      "id": "9",
-      "name": "ANTAFEN",
-      "image": "assets/antafen.jpeg",
-      "price": 3100,
-      "quantity": 30
-    },
-    {
-      "id": "10",
-      "name": "Calcibronat",
-      "image": "assets/calcibronat.jpeg",
-      "price": 8200,
+      "id": "560a",
+      "name": "Un nom sur la liste",
+      "image": "https://www.ricochet-jeunes.org/sites/default/files/2021-03/Un%20nom%20sur%20la%20liste.jpg",
+      "price": 120,
       "quantity": 10
     },
     {
-      "id": "11",
-      "name": "EFFERALGAN vitamine c",
-      "image": "assets/efferalgan.jpeg",
-      "price": 4200,
-      "quantity": 55
+      "id": "49d6",
+      "name": "Game oh Thrones",
+      "image": "https://images.epagine.fr/888/9780006479888_1_75.jpg",
+      "price": 210,
+      "quantity": 100
     },
     {
-      "id": "12",
-      "name": "Maxilase",
-      "image": "assets/maxilase.jpeg",
-      "price": 6100,
-      "quantity": 41
+      "id": "0a3f",
+      "name": "Le livre des noms oubliés",
+      "image": "https://m.media-amazon.com/images/I/81y-AwJClbL._UF1000,1000_QL80_.jpg",
+      "price": 80,
+      "quantity": 20
     },
     {
-      "id": "13",
-      "name": "Pollen d'abeille",
-      "image": "assets/pollen.jpeg",
-      "price": 32500,
-      "quantity": 15
+      "id": "d1f5",
+      "name": "Les 9 noms du soleil",
+      "image": "https://www.prologue.ca/DATA/LIVRE/apple/9782380823189~v~couverture.jpg",
+      "price": 165,
+      "quantity": 1
     },
     {
-      "id": "14",
-      "name": "Météoxane",
-      "image": "assets/meteoxane.jpeg",
-      "price": 7100,
-      "quantity": 22
+      "id": "8174",
+      "name": "Le grand livre des noms de familles",
+      "image": "https://products-images.di-static.com/image/frederic-delacourt-le-grand-livre-des-noms-de-famille/9782732831152-475x500-1.jpg",
+      "price": 250,
+      "quantity": 60
     },
     {
-      "id": "15",
-      "name": "Vitamine C UPSA",
-      "image": "assets/vitamine_c_upsa.jpeg",
-      "price": 11200,
-      "quantity": 2
+      "id": "3ffd",
+      "name": "L'ombre du vent",
+      "image": "https://pcplblogue.wordpress.com/wp-content/uploads/2015/01/ombreduvent.jpg",
+      "price": 250,
+      "quantity": 50
     },
     {
-      "id": "16",
-      "name": "Doliprane 500mg",
-      "image": "assets/doliprane500mg.jpg",
-      "price": 1950,
-      "quantity": 55
+      "id": "729b",
+      "name": "Nous ne négligerons aucune piste",
+      "image": "https://m.media-amazon.com/images/I/81bpbxzjKML._AC_UF1000,1000_QL80_.jpg",
+      "price": 100,
+      "quantity": 10
+    },
+    {
+      "id": "3b3f",
+      "name": "Danielle Steel",
+      "image": "https://www.culturel.tn/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9782266206808-475x500-1_2.jpg",
+      "price": 100,
+      "quantity": 10
+    },
+    {
+      "id": "a519",
+      "name": "Au nom du bien",
+      "image": "https://gallmeister.fr/assets/couvertures/couv-1000/330.jpg",
+      "price": 98,
+      "quantity": 23
     }
   ]
 }

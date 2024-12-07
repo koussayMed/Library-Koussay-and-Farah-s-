@@ -1,22 +1,60 @@
-<div class="container mt-5" *ngIf="productFormGroup">
-    <h3>Edit Product</h3>
-    <form [formGroup]="productFormGroup">
-        <div class="form-group">
-            <label for="name">Name:</label>
-            <input type="text" class="form-control" formControlName="name">
-        </div>
-        <div class="form-group">
-            <label for="image">Image URL:</label>
-            <input type="text" class="form-control" formControlName="image">
-        </div>
-        <div class="form-group">
-            <label for="price">Price:</label>
-            <input type="number" class="form-control" formControlName="price">
-        </div>
-        <div class="form-group">
-            <label for="quantity">Quantity:</label>
-            <input type="number" class="form-control" formControlName="quantity">
-        </div>
-        <button class="btn btn-primary" (click)="onSubmit()">Save Changes</button>
-    </form>
+<div class="container mt-3">
+  <form (ngSubmit)="updateProduct()">
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input
+        type="text"
+        id="name"
+        class="form-control"
+        [(ngModel)]="product.name"
+        name="name"
+      />
+    </div>
+    <div class="form-group">
+      <label for="image">Image URL</label>
+      <input
+        type="text"
+        id="image"
+        class="form-control"
+        [(ngModel)]="product.image"
+        name="image"
+      />
+    </div>
+    <div class="form-group">
+      <label for="price">Price</label>
+      <input
+        type="number"
+        id="price"
+        class="form-control"
+        [(ngModel)]="product.price"
+        name="price"
+      />
+    </div>
+    <div class="form-group">
+      <label for="quantity">Quantity</label>
+      <input
+        type="number"
+        id="quantity"
+        class="form-control"
+        [(ngModel)]="product.quantity"
+        name="quantity"
+      />
+    </div>
+    <!-- Submit Button -->
+    <button
+      type="submit"
+      class="btn btn-primary mt-3"
+      [disabled]="updateForm.invalid">
+      Update Product
+    </button>
+
+    <!-- Cancel Button (Optional) -->
+    <button
+      type="button"
+      class="btn btn-secondary mt-3 ms-2"
+      (click)="cancelUpdate()">
+      Cancel
+    </button>
+
+  </form>
 </div>

@@ -4,8 +4,8 @@
       "id": "70ea",
       "name": "Le nom de toutes choses",
       "image": "https://www.bragelonne.fr/media/cache/cat_w272/47/9791028121747.jpg",
-      "price": 150,
-      "quantity": 3
+      "price": 157,
+      "quantity": 5
     },
     {
       "id": "560a",
@@ -40,7 +40,7 @@
       "name": "Le grand livre des noms de familles",
       "image": "https://products-images.di-static.com/image/frederic-delacourt-le-grand-livre-des-noms-de-famille/9782732831152-475x500-1.jpg",
       "price": 250,
-      "quantity": 60
+      "quantity": 50
     },
     {
       "id": "3ffd",
